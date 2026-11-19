@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Large model files (too big for GitHub)
+*.joblib
+
+# Data files (large)
+demo_data.csv
+unknown_scores.csv
+nodes.csv
+edges.csv
+data/elliptic_txs_features.csv
+data/elliptic_txs_edgelist.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

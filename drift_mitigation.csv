@@ -1,0 +1,10 @@
+strategy,period,precision,recall,f1
+static (train 1-34),35-49,0.969,0.722,0.828
+static (train 1-34),35-42,0.984,0.852,0.913
+static (train 1-34),43-49,0.2,0.018,0.033
+expanding (all past steps),35-49,0.988,0.735,0.843
+expanding (all past steps),35-42,0.994,0.848,0.915
+expanding (all past steps),43-49,0.808,0.124,0.215
+sliding (last 10 steps),35-49,0.983,0.7,0.818
+sliding (last 10 steps),35-42,0.992,0.821,0.898
+sliding (last 10 steps),43-49,0.533,0.047,0.087
